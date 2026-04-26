@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Dark mode background */
+body {
+    background-color: #0d1117;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-container {
+    text-align: center;
+    background-color: #161b22;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#time{
+    color: rgb(69, 237, 57);   
+}
+
+#date{
+    color: white;
+    margin-top: 15px;
+    background-color: rgb(188, 83, 44);
+}
