@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorPicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Advanced Color Picker</h1>
+
+        <!-- color picker input -->
+         <input type="color" id="colorInput">
+         <p id="colorCode">#000000</p>
+         <button id="copyButton">Copy Color Code</button>
+
+         <!-- Complementry Color  -->
+          <div class="complementry-color">
+            <h2>Complementry Colors</h2>
+            <div id="complementaryContainer"></div>
+          </div>
+
+          <!-- Favourite Color List -->
+           <button id="saveColorButton">Save Color</button>
+           <div class="favourite">
+             <h2>Favourite Colors</h2>
+             <div id="favouriteContainer"></div>
+           </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
