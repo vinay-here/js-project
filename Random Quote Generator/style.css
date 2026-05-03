@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+}
+
+#quoteDisplay{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+button{
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
