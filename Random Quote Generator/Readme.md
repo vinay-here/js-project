@@ -16,7 +16,7 @@ A simple and interactive web app that displays a new inspirational quote each ti
 
 ## 🖼️ Preview
 
-![Random Quote Generator](./images/quotes-preview.png)
+![Random Quote Generator](./images/quotes.png)
 
 ---
 
