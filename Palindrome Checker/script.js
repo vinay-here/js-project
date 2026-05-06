@@ -9,7 +9,7 @@ function checkPalindrome() {
   const text = inputText.value.toLowerCase().replace(/[^a-z0-9]/g, "");
   const reverseText = text.split("").reverse().join("");
 
-  resultMessage.className = "show"; // ⭐ THIS IS THE ONE LINE
+  resultMessage.className = "show"; 
 
   if (text === reverseText) {
     resultMessage.textContent = `${inputText.value} is a palindrome`;
